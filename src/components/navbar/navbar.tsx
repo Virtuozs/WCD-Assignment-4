@@ -120,11 +120,11 @@ export default function NavBar() {
               <X size={50} className="fixed top-[60px] right-[60px] z-40 p-2 bg-white shadow-lg rounded-full" />
             </button>
             <div className="flex flex-col h-full my-10 ml-20 justify-between">
-              <ul className="flex flex-col gap-6 text-white text-6xl mt-24 list-none">
+              <ul className="flex flex-col gap-8 text-white text-6xl mt-32 list-none">
                 {sections.map(({ id, label }) => (
                   <li className="flex flex-row gap-5 items-center">
                     {activeSection === id && (
-                      <span className="text-4xl text-white">•</span>
+                      <span className="text-white">•</span>
                     )}
                     <a
                       href={id}

@@ -1,7 +1,7 @@
 import Bio from "../../components/layouts/contact/bio" 
 import NavBar from "../../components/navbar/navbar"
 import Form from "../../components/layouts/contact/form"
-import Footer from "../../components/layouts/home/footer"
+import Footer from "../../components/footer/footer"
 
 export default function Contactpage() {
   return (
