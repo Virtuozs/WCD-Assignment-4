@@ -10,13 +10,13 @@ This repository is intended to explore React + Typescript + Vite + Tailwind CSS.
 Clone the project
 
 ```bash
-  git https://github.com/cotbakheu/tugas-4
+  git clone https://github.com/Virtuozs/WCD-Assignment-4.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd tugas-4
+  cd WCD-Assignment-4
 ```
 
 Install dependencies
