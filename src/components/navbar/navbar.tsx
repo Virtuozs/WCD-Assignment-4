@@ -2,8 +2,6 @@ import { useEffect, useRef, useState } from "react";
 import { Menu, X } from "lucide-react";
 import {Link, useLocation} from "react-router-dom";
 
-
-
 export default function NavBar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [inHomeSection, setInHomeSection] = useState(true);
@@ -137,9 +135,9 @@ export default function NavBar() {
                 ))}
               </ul>
                 <ul className="absolute bottom-5 flex flex-row gap-6 text-white text-xl">
-                  <li><a href="" className="hover:text-gray-600" onClick={toggleMenu}>Linkedin</a></li>
-                  <li><a href="#Twitter" className="hover:text-gray-600" onClick={toggleMenu}>Twitter</a></li>
-                  <li><a href="#Instagram" className="hover:text-gray-600" onClick={toggleMenu}>Instagram</a></li>
+                  <li><a href="https://www.linkedin.com/in/taufiqurrahman-8627191aa/" className="hover:text-gray-600" onClick={toggleMenu}>Linkedin</a></li>
+                  <li><a href="https://github.com/Virtuozs" className="hover:text-gray-600" onClick={toggleMenu}>Github</a></li>
+                  <li><a href="https://discord.com/users/385426070934913035" className="hover:text-gray-600" onClick={toggleMenu}>Discord</a></li>
                   <li><a href="#webflow" className="hover:text-gray-600" onClick={toggleMenu}>Webflow</a></li>
                 </ul>
             </div>
