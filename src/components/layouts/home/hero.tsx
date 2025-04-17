@@ -8,7 +8,7 @@ export default function Hero() {
       <div className="relative h-full w-full text-center">
           <div className="absolute inset-0 flex justify-center items-end-safe">
             <h2 className="text-[8vw] font-semibold text-white mb-48 opacity-70 z-10 select-none leading-none whitespace-nowrap animate-move-right-to-left">
-            Webflow Developer - UI/UX Designer - Web Designer
+            Software Developer - Tech Enthusiast - AI Enthusiast
             </h2>
           </div>
 
