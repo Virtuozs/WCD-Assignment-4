@@ -68,19 +68,15 @@ export default function NavBar() {
           )}
           <ul className="flex gap-10 text-black text-xl">
             {isRoot ? (
-              <Link to={"/#about"}>
-                <li><a href="#" className="hover:text-gray-600 transition duration-300">About</a></li>
-              </Link>
+                <li><a href="#about" className="hover:text-gray-600 transition duration-300">About</a></li>
             ) : (
-              <Link to={"/#about"}>
-                <li><a href="#" className="hover:text-gray-600 transition duration-300">About</a></li>
+              <Link to={"/#about"} className="hover:text-gray-600 transition duration-300">
+                About
               </Link>
             )}
 
             {isRoot ? (
-              <Link to={"#work"}>
-                <li><a href="#" className="hover:text-gray-600 transition duration-300">Work</a></li>
-              </Link>
+                <li><a href="#work" className="hover:text-gray-600 transition duration-300">Work</a></li>
             ) : (
               <Link to={"/#work"}>
                 <li><a href="#" className="hover:text-gray-600 transition duration-300">Work</a></li>

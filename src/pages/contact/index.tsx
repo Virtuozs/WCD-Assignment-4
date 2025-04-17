@@ -8,7 +8,7 @@ export default function Contactpage() {
     <>
       <main className="flex flex-col max-h-screen max-w-screen">
         <NavBar/>
-        <div className="flex flex-row mt-24">
+        <div className="flex flex-row my-20">
           <Bio />
           <Form />
         </div>
