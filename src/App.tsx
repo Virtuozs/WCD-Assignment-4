@@ -1,17 +1,16 @@
-import Hero from './components/sections/hero'
-import About from './components/sections/about'
-import Work from './components/sections/work'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/home/index';
+import Contact from "./pages/contact/index"
 
 function App() {
   return (
-    <>
-      <main className='scroll-smooth overflow-y-hidden'>
-        <Hero />
-        <About />
-        <Work />
-      </main>
-    </>
-  )
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;

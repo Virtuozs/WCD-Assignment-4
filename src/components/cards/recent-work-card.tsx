@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import arrowWhite from "../assets/arrow_white.svg"
-import arrowBlack from "../assets/arrow_black.svg"
+import arrowWhite from "../../assets/arrow_white.svg"
+import arrowBlack from "../../assets/arrow_black.svg"
 
 interface ServiceLinkCardProps {
     title: string;
@@ -30,4 +30,4 @@ const ServiceLinkCard: React.FC<ServiceLinkCardProps> = ({ title, subtitle, href
     );
 };
 
-  export default ServiceLinkCard;
+export default ServiceLinkCard;

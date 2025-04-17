@@ -20,19 +20,19 @@
   }
 
   @keyframes slide-loop {
-    0% {
+    from {
       transform: translateX(0%);
     }
-    100% {
+    to {
       transform: translateX(-50%);
     }
   }
   
   @keyframes slide-loop-reverse {
-    0% {
+    from {
       transform: translateX(-50%);
     }
-    100% {
+    to {
       transform: translateX(0%);
     }
   }

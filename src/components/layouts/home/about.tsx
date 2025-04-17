@@ -1,4 +1,3 @@
-
 export default function About() {
     return (
         <section className="bg-[#FFFFFF] my-[160px] mx-[80px]" id="about">
@@ -8,8 +7,8 @@ export default function About() {
                 </div>
 
                 <div className="md:w-2/3">
-                    <p className="text-lg text-gray-700">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.
+                    <p className="text-lg text-gray-700 justify-center">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                     </p>
                 </div>
             </div>
